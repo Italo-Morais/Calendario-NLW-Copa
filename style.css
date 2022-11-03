@@ -14,6 +14,7 @@ body {
     background-image: url(assets/bg.svg);
     background-position-x: center;
     background-position-y: -715rem;
+    /* background-repeat: no-repeat; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +50,7 @@ header {
     text-align: center;
     background: #1d1c19;
     border-bottom: 2rem solid #338af3;
-    border-radius: 6rem;
+    border-radius: 8rem;
 
 }
 
@@ -95,7 +96,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 24rem;
-    width: 270rem;
+    width: 300rem;
 }
 
 .card1 ul li {
@@ -123,80 +124,6 @@ header {
 
 /* CARD2 */
 
-.card2 { 
-    padding: 32rem 23rem;
-    text-align: center;
-    background: #1d1c19;
-    border-bottom: 2rem solid #338af3;
-    border-radius: 6rem;   
-}
-
-
-.card2 h2 {
-    display: flex;
-    gap: 16rem;
-    align-items: center;
-    justify-content: center;
-
-    padding: 8rem 16rem;
-    border: 1rem solid #338AF3;
-    border-radius: 6rem;
-
-    width: fit-content;
-    margin-inline: auto;
-    margin-bottom: 53rem;
-
-    background: #202024;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24rem;
-    line-height: 125%;
-    text-align: right;
-    
-    color: #F7DD43;
-}
-
-.card2 h2 span {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14rem;
-    line-height: 125%;
-    color: #E1E1E6;
-    text-transform: uppercase;
-}
-
-.card2 ul {
-    display: flex;
-    flex-direction: column;
-    gap: 24rem;
-    width: 270rem;
-}
-
-.card2 ul li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-.card2 ul li + li {
-    padding-top: 24rem;
-    border-top: 1rem solid white;
-    
-}
-
-.card2 ul li strong {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36rem;
-    line-height: 125%;
-    text-align: center;
-    color: #E1E1E6;
-}
 
 /* CARD 3 */
 
