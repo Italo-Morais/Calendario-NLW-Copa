@@ -17,8 +17,10 @@
 } */
 
 body {
-    background-color: #121214;
-    background-image: url(assets/bg.png);
+    background-color: #7E2332;
+    background-image: url(assets/bg1.png);
+    background-position: center;
+    /* background-position-y: -310rem; */
 
      display: flex; 
      justify-content: center;
